@@ -1,0 +1,285 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "Cafetería L'arbol"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+
+  # custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "Juan Antonio Pérez"
+  description = ""
+  email = "sallonara@hotmail.com"
+  # Navigation
+  [params.navigation]
+    brand = "L'arbol café"
+    home = "Inicio"
+    our_spaces = "Nuestros espacios"
+    testimonials = "Testimonios"
+    services = "Servicios"
+    about = "Sobre Nosotros"
+    contact = "Contacto"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+
+    # prepended links
+    # [[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "WTF!"
+    #  weight = 10
+
+    # postpended links
+    # [[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External11 link"
+    #  weight = 10
+
+  # Hero section
+  [params.hero]
+    title = "¿Te apetece desayunar o una merienda?"
+    # subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    subtitle = '¿Quieres una café, un smoothie, un batido o una deliciosa tata? ¡Ven a vernos!'
+
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Nuestros productos"
+    description = "Tenemos un exquisito café, una gran variedad de tés, varias tartas (ven a probar nuestra riquísima tarta de zanahoria), smoothies y batidos"
+# Y si te apetece algo salado ven y prueba nuestros deliciosos pitufos, molletes o baguetinas!
+    url = "#"
+    button = "Sí, enséñamela"
+    icon = "icon-cup"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Nuestros espacios"
+    description = "Ven y pasa con nosotros un tranquilo y relajado tiempo en alguno de los diferentes ambientes que tenemos.\n\n\n\n"
+    url = "#"
+    button = "Click Me"
+    icon = "icon-picture"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Launch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Why us?"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+  # Work section
+  [params.our_spaces]
+    enable = true
+    title = "Nuestros espacio"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = ''
+
+    [[params.our_spaces.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "El columpio"
+      subtitle = "Para los más peques o no tan peques :D"
+
+    [[params.our_spaces.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+
+    [[params.our_spaces.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.our_spaces.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+
+    [[params.our_spaces.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.our_spaces.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.services.item]]
+      title = "Brand &amp; Strategy"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Web &amp; Interface"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "Photo &amp; Video"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = false
+  #   title = "About"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #
+  #   [[params.about.item]]
+  #     name = "Ana Aguilera"
+  #     position = ""
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #     img = "person1.jpg"
+  #     alt = "ana_aguilera"
+  #     # social = [
+  #     #   ["icon-twitter", "#"],
+  #     #   ["icon-facebook", "#"],
+  #     #   ["icon-linkedin", "#"]
+  #     # ]
+  #
+  #   [[params.about.item]]
+  #     name = "Rafa Aguilera"
+  #     position = ""
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #     img = "person2.jpg"
+  #     alt = "rafa_aguilera"
+  #     # social = [
+  #     #   ["icon-twitter", "#"],
+  #     #   ["icon-facebook", "#"],
+  #     #   ["icon-github", "#"]
+  #     # ]
+  #
+  #   [[params.about.item]]
+  #     name = "Carlos Acedo"
+  #     position = ""
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #     img = "person3.jpg"
+  #     alt = "carlos_acedo"
+  #     # social = [
+  #     #   ["icon-twitter", "#"],
+  #     #   ["icon-facebook", "#"],
+  #     #   ["icon-dribbble", "#"]
+  #     # ]
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Estado"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    info = "Datos de contacto"
+    form = "Envíanos tu consulta"
+
+    title = "Estemos en contacto"
+    description = " Si necesitas ponerte en contacto con nosotros puedes rellenar este formulario dejando tus datos o mándanos un mensaje en alguna de nuestras redes sociales."
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        # ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-home", "Callejones del Perchel, 4, 29002 Málaga"],
+        ["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "hello@larbol-cafe.com"],
+        ["icon-globe", '<a href="http://larbol-cafe.com/" target="_blank">larbol-cafe.com</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '''Tema creado por <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> y modificado para la cafetería L'arbol Café <br>Portado a <a href="https://gohugo.io/" target="_blank">Hugo</a> por: <a href="https://github.com/saey55" target="_blank">saey55</a>'''
