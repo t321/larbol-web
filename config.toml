@@ -1,7 +1,7 @@
 # Page settings
 baseurl = "localhost:1313"
 title = "Cafetería L'árbol"
-languageCode = "en-us"
+languageCode = "es-ES"
 theme = "hugo-elate-theme"
 
 [params]
@@ -47,6 +47,14 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
+    title = "Nuestros lugares"
+    description = "Ven y pasa con nosotros un tranquilo y relajado tiempo en alguno de los diferentes ambientes que tenemos.\n\n\n\n"
+    url = "#"
+    button = "Click Me"
+    icon = "icon-picture"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
     title = "Nuestros productos"
     description = "Tenemos un exquisito café, una gran variedad de tés, varias tartas (ven a probar nuestra riquísima tarta de zanahoria), smoothies y batidos"
 # Y si te apetece algo salado ven y prueba nuestros deliciosos pitufos, molletes o baguetinas!
@@ -56,19 +64,11 @@ theme = "hugo-elate-theme"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Nuestros espacios"
-    description = "Ven y pasa con nosotros un tranquilo y relajado tiempo en alguno de los diferentes ambientes que tenemos.\n\n\n\n"
-    url = "#"
-    button = "Click Me"
-    icon = "icon-picture"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
+    title = "¡Veredictos!"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Why us?"
-    icon = "icon-rocket"
+    icon = "icon-badge"
     img = "img_10.jpg"
 
   [params.intro.video]
@@ -214,27 +214,11 @@ theme = "hugo-elate-theme"
   # Counters section
   [params.counters]
     enable = true
-    title = "Estado"
+    title = "Logros"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Cups of coffee"
+      description = "Tazas de café derramadas"
       icon = "icon-cup"
       from = 0
       to = 1302
@@ -242,10 +226,26 @@ theme = "hugo-elate-theme"
       speed = 5000
 
     [[params.counters.item]]
-      description = "Happy clients"
-      icon = "icon-people"
+      description = "Dedos accidentados cortando jamón"
+      icon = "icon-like"
       from = 0
-      to = 52
+      to = 30
+      interval = 4
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Sonrisas de clientes por la mañana temprano"
+      icon = "icon-magic-wand"
+      from = 0
+      to = 12242
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Vaivenes en el columpio"
+      icon = "icon-rocket"
+      from = 0
+      to = 2343409
       interval = 50
       speed = 5000
 
