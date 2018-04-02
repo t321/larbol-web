@@ -85,38 +85,38 @@ theme = "hugo-elate-theme"
     footertext = ''
 
     [[params.our_spaces.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
+      img = "columpio.jpg"
+      alt = "Columpio de L'arbol"
       title = "El columpio"
       subtitle = "Para los peques y no tan peques :)"
 
     [[params.our_spaces.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
+      img = "rinconcito.jpg"
+      alt = "Rincondito de L'árbol"
       title = "El Rinconcito"
       subtitle = "Para leer el periódico como todo un señor"
 
     [[params.our_spaces.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
+      img = "bobina.jpg"
+      alt = "Bobina de L'árbol"
       title = "La Bobina"
       subtitle = "Para divertidas reuniones de amigos y amigas"
 
     [[params.our_spaces.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
+      img = "mundo_palet.jpg"
+      alt = "Mundo Palet de L'árbol"
       title = "Mundo Palet"
       subtitle = "Para los que tienen prisa"
 
     [[params.our_spaces.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
+      img = "ventanal.jpg"
+      alt = "Ventanal de L'árbol"
       title = "El Ventanal"
       subtitle = "¡¡Lleno de luz y color!!"
 
     [[params.our_spaces.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
+      img = "altillo.jpg"
+      alt = "Altillo de L'árbol"
       title = "El Altillo"
       subtitle = "Para eventos especiales"
 
