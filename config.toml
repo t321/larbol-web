@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Cafetería L'arbol"
+title = "Cafetería L'árbol"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -16,8 +16,8 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "L'arbol café"
     home = "Inicio"
-    our_spaces = "Nuestros espacios"
-    testimonials = "Testimonios"
+    our_spaces = "Nuestros lugares"
+    testimonials = "Veredictos"
     services = "Servicios"
     about = "Sobre Nosotros"
     contact = "Contacto"
@@ -39,9 +39,8 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = "¿Te apetece desayunar o una merienda?"
-    # subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
-    subtitle = '¿Quieres una café, un smoothie, un batido o una deliciosa tata? ¡Ven a vernos!'
+    title = "...porque nos gusta exprimir nuestras pasiones, porque los momentos mágicos existen, y porque queremos disfrutarlos en compañía..."
+    subtitle = "Bienvenidos a L'árbol Café"
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -78,55 +77,54 @@ theme = "hugo-elate-theme"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
-
-  # Work section
+  # Our spaces section
   [params.our_spaces]
     enable = true
-    title = "Nuestros espacio"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Nuestros lugares"
+    description = 'Tenemos un lugar perfecto para cada ocasión ¿Cuál es el tuyo?'
     footertext = ''
 
     [[params.our_spaces.row]]
       img = "work_1.jpg"
       alt = "Image2"
       title = "El columpio"
-      subtitle = "Para los más peques o no tan peques :D"
+      subtitle = "Para los peques y no tan peques :)"
 
     [[params.our_spaces.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      title = "El Rinconcito"
+      subtitle = "Para leer el periódico como todo un señor"
 
     [[params.our_spaces.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      title = "La Bobina"
+      subtitle = "Para divertidas reuniones de amigos y amigas"
 
     [[params.our_spaces.row]]
       img = "work_4.jpg"
       alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      title = "Mundo Palet"
+      subtitle = "Para los que tienen prisa"
 
     [[params.our_spaces.row]]
       img = "work_5.jpg"
       alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      title = "El Ventanal"
+      subtitle = "¡¡Lleno de luz y color!!"
 
     [[params.our_spaces.row]]
       img = "work_6.jpg"
       alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = "El Altillo"
+      subtitle = "Para eventos especiales"
 
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Veredictos"
+    description = "¡Somos todo orejas! dinos qué te ha parecido la experiencia con nosotros en nuestras redes sociales."
 
     [[params.testimonials.item]]
       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
@@ -145,9 +143,6 @@ theme = "hugo-elate-theme"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
-
-
-
 
   # Services section
   [params.services]
