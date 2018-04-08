@@ -72,7 +72,7 @@ theme = "hugo-elate-theme"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -115,6 +115,49 @@ theme = "hugo-elate-theme"
       subtitle = "¡¡Lleno de luz y color!!"
 
     [[params.our_spaces.row]]
+      img = "altillo.jpg"
+      alt = "Altillo de L'árbol"
+      title = "El Altillo"
+      subtitle = "Para eventos especiales"
+
+  # Our spaces section
+  [params.our_products]
+    enable = true
+    title = "Nuestros productos"
+    description = 'Tenemos un lugar perfecto para cada ocasión ¿Cuál es el tuyo?'
+    footertext = ''
+
+    [[params.our_products.row]]
+      img = "columpio.jpg"
+      alt = "Columpio de L'arbol"
+      title = "Cafés"
+      subtitle = ""
+
+    [[params.our_products.row]]
+      img = "rinconcito.jpg"
+      alt = "Rincondito de L'árbol"
+      title = "El Rinconcito"
+      subtitle = "Para leer el periódico como todo un señor"
+
+    [[params.our_products.row]]
+      img = "bobina.jpg"
+      alt = "Bobina de L'árbol"
+      title = "La Bobina"
+      subtitle = "Para divertidas reuniones de amigos y amigas"
+
+    [[params.our_products.row]]
+      img = "mundo_palet.jpg"
+      alt = "Mundo Palet de L'árbol"
+      title = "Mundo Palet"
+      subtitle = "Para los que tienen prisa"
+
+    [[params.our_products.row]]
+      img = "ventanal.jpg"
+      alt = "Ventanal de L'árbol"
+      title = "El Ventanal"
+      subtitle = "¡¡Lleno de luz y color!!"
+
+    [[params.our_products.row]]
       img = "altillo.jpg"
       alt = "Altillo de L'árbol"
       title = "El Altillo"

@@ -16,9 +16,13 @@
 
 		{{ if .Site.Params.our_spaces.enable }}
        		{{ partial "our_spaces.html" .}}
-       	{{ end }}
+    {{ end }}
 
-		{{ if .Site.Params.testimonials.enable }}
+    {{ if .Site.Params.our_spaces.enable }}
+          {{ partial "our_products.html" .}}
+    {{ end }}
+
+    {{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
 		{{ end }}
 
